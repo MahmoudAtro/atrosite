@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactus</title>
+<style>
+    .anav{
+    border-top-style: solid !important;
+    border-width: 1px;
+    border-color: black;
+  }
+  .nav{
+    padding-top: none;
+  }
+  
+  .hed{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .m{
+    margin-top: 34px;
+    
+  }
+  .firstpage{
+    text-align: center;
+    margin: auto;
+    direction: rtl;
+  }
+  .text{
+    color: #fff !important;
+    font-size: large;
+  }
+  ul li a{
+    margin: 10px;
+    color: white!important;
+  
+  }
+  .ulnav{
+    flex-direction: row!important;
+    margin: 8px;
+    padding: 15px;
+    padding: 5px;
+  }
+  .btnvar{
+    margin-top: 11px !important;
+    box-shadow: none;
+  }
+  
+  .btnvar:hover{
+    border: #fff!important;
+    background-color: white !important;
+    color: black !important;
+  }
+  .sptext{
+   text-align: center!important;
+   margin-left:70pxpx !important;
+   text-align: center!important;
+   text-align: center;
+    display: flex; 
+   margin-left: 150px!important;
+   padding-left:50px !important;
+   font-size: 25px;
+   
+  }
+  .a{
+    border-top: black !important;
+  }
+  .m{
+    text-align: center;
+  justify-content: center;
+  }
+  .divcard{
+    box-shadow: none;
+  
+  }
+  footer{
+    margin-top: 12px!important;
+    padding-top: 8px!important;
+  }
+
+
+form1{
+    max-width: 540px !important;
+    text-align: center;
+    margin-top: 50px!important;
+    max-width: 240px !important;
+    padding-top: 20px!important;
+   justify-content: center;
+   border: 1px!important;
+   border-width: 2px;
+   border-color: black;
+
+  }
+  .divform{
+  padding: 50px;
+  
+  }
+  footer{
+    margin: auto!important;
+    padding-top: 20px !important;
+  }
+  .in{
+    border-style: outset!important;
+    outline: 5px;
+    border-width: thin;
+    border-right: 1px;
+    border-top: 0.1px;
+    border-left: 0.2px;
+  }
+  .login{
+    color: blue;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .in2{
+    border-style: outset!important;
+    outline: 5px;
+    border-width: thin;
+    border-right: 1px;
+    border-top: 0.1px;
+    border-left: 0.2px;
+  }
+  .form2{
+    padding-bottom: 50px !important;
+  }
+  .formlogin{
+  margin-bottom: 30px!important;
+  }
+</style>
+  <link rel="icon" href="img/icon.png">
+  <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+  <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+  ></script>
+  <header class="hed" >
+    <div class="collapse" id="navbarToggleExternalContent">
+    </div>
+    <nav class="navbar navbar-dark bg-dark nav">
+      <div class="container-fluid divbar a">
+        <span class="navbar-text text">
+        <a href="#">Mahmoud Atro</a> 
+        </span>
+        <div class="navbar-text text sptext a" style="padding-left: 5px; text-align: center;">
+          My First Site
+         </div>
+        <ul class="navbar-nav ulnav"  >
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html">HomePage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">ContactUs</a>
+          </li>
+          <div class="dropdown">
+            <button class="btn btn-dark dropdown-toggle btnvar" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+             <span style="font-size: 15px;">SideBar</span> 
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+             <a href="login.html"><li><button class="dropdown-item" type="button">Login</button></li></a>
+             <a href="signup.html"><li class="anav"><button class="dropdown-item" type="button">signup</button></li></a>
+            </ul>
+          </div>
+         </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form class="container form1">
+      <div class="container divform" style="max-width: 540px; margin: auto !important;">
+        <h5 style="text-align: center; color: blue;">send your massage here</h5>
+      <!-- Name input -->
+      <div class="form-outline mb-4 in" style="margin-top: 20px; border">
+        <input type="text" id="form4Example1" class="form-control"  />
+        <label class="form-label" for="form4Example1">Name</label>
+      </div>
+      <!-- Email input -->
+      <div class="form-outline mb-4 in">
+        <input required type="email" id="form4Example2" class="form-control" />
+        <label class="form-label" for="form4Example2">Email address</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-4 in">
+        <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+        <label class="form-label" for="form4Example3">Message</label>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+        <label class="form-check-label" for="form4Example4">
+          Send me a copy of this message
+        </label>
+      </div>
+    
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-dark btn-block" data-mdb-toggle="modal" data-mdb-target="#staticBackdrop">
+  Submit
+</button>
+  <!-- Modal -->
+<div
+        class="modal fade"
+       id="staticBackdrop"
+        data-mdb-backdrop="static"
+         data-mdb-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+       aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">response recording</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">your response has been recoded</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </form>
+  </main>
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/profile.php?id=100071745116138" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/mahmoudyatro?utm_source=qr" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.Linkedin.com/in/mahmoud-atro-615773248" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/MahmoudAtro" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="#">Mahmoud Atro</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
